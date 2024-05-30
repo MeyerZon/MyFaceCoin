@@ -1,30 +1,29 @@
 ---
-import SocialIcons from '../SocialIcons.astro';
-import Title from '../atoms/Title.astro';
-import "./about.css"
-
-
+import SocialIcons from "../SocialIcons.astro";
+import Title from "../atoms/Title.astro";
+import "./about.css";
 ---
 
 <section id="about" class="about">
-	<div class="about__container">
-		<img
-			class="about__img"
-			src="https://www.bpocenter.com.bo/wp-content/uploads/2017/11/10.jpg"
-			alt="Foto de perfil de Jhon Doe"
-		/>
+  <div class="about__container">
+    <img
+      class="about__img"
+      src="../../../public/img/my_face_logo.jpg"
+      alt="Foto de perfil de Jhon Doe"
+    />
 
-		<div class="about__content">
-			<Title margin="1rem" contenido="Sobre mí" />
+    <div class="about__content">
+      <Title margin="1rem" contenido="About this project" />
+      <p class="about__text">
+        I grabbed some template from Astro templates because I was too lazy to do it by myself. I created that
+        cryptocurrency to show my mother why it's not a good idea to buy random shitcoins on the internet.
+      </p>
 			<p class="about__text">
-				Habla sobre tí, tu profesión, lo que te gusta, cual es tu
-				pasatiempos, que haces en tu ratos libres, que cosas te apasionan y
-				has aprendido, ¿porqué elegiste está profesión?, ¿Tienes mascota?
-				¿Te gusta ir a caminar al parque? ¿Estudiaste algo más? ¿En que eres
-				bueno?
+I did it because I was very bored
 			</p>
-			<SocialIcons width="25" height="25"/>
-		</div>
-	</div>
+
+      <!--<SocialIcons width="25" height="25" />-->
+    </div>
+  </div>
 
 </section>
