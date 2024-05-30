@@ -1,7 +1,7 @@
 ---
 import Title from "../components/atoms/Title.astro";
 import { getCollection } from 'astro:content';
-import Boton from "./atoms/Boton.astro";
+import Boton from "./atoms/ConfettiButton.astro";
 import FormattedDate from "./FormattedDate.astro";
 import CardBlog from "./CardBlog.astro";
 const posts = (await getCollection('blog')).sort(

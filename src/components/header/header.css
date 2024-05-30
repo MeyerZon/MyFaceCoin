@@ -126,24 +126,24 @@
 	.icons {
 		display: block;
 	}
-	.menu__btn {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		padding: 0.5rem 2rem;
-		background: var(--hero-bg);
-		border-radius: 100px;
-		font-size: var(--text-x-large);
-		transition: 0.35s opacity;
-		max-width: -moz-max-content;
-		max-width: max-content;
-		color: #33f3c6;
-		position: absolute;
-		border: 2px solid #33f3c6;
-		pointer-events: all;
-		animation: linear scroll-btn;
-		animation-timeline: scroll();
-	}
+	/*.menu__btn {*/
+	/*	display: flex;*/
+	/*	justify-content: center;*/
+	/*	align-items: center;*/
+	/*	padding: 0.5rem 2rem;*/
+	/*	background: var(--hero-bg);*/
+	/*	border-radius: 100px;*/
+	/*	font-size: var(--text-x-large);*/
+	/*	transition: 0.35s opacity;*/
+	/*	max-width: -moz-max-content;*/
+	/*	max-width: max-content;*/
+	/*	color: #33f3c6;*/
+	/*	position: absolute;*/
+	/*	border: 2px solid #33f3c6;*/
+	/*	pointer-events: all;*/
+	/*	animation: linear scroll-btn;*/
+	/*	animation-timeline: scroll();*/
+	/*}*/
 }
 
 @keyframes scroll-btn {
