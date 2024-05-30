@@ -6,6 +6,8 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://MeyerZon.github.io',
+  // base: 'my-repo',
   devToolbar: {
     enabled: false
   },
